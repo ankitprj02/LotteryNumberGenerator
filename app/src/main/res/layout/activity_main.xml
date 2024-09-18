@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="24sp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Welcome to Lottery Generator" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lottery_icon"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Your Name..."
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp"
+        android:imeOptions="actionDone"
+        android:layout_marginHorizontal="8dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Generate"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
